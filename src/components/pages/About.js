@@ -13,7 +13,7 @@ export default function About() {
                             look websites good.It is always a fun to create a interactive web page. we can extend our
                             ideas and creativity as a web developer.
                             The best part is I can build something and I can see the resuts immediately.I have sample
-                            projects displayed in the work section.Click on each image for detailed view.
+                            projects displayed in the 'Project' section.Click on each image for detailed view.
       </p>
         
       <div className="lotties">
