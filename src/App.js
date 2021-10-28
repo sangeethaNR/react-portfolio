@@ -6,7 +6,7 @@ import React, { Component } from 'react';
   render() {
     return (
       <div className="App">
-        <h1>REACT LOTTIES</h1>
+      
         <div className="lotties">
           <UncontrolledLottie />
          
