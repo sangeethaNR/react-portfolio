@@ -1,4 +1,5 @@
 import React from 'react';
+import UncontrolledLottie from '../UncontrolledLottie';
 
 export default function About() {
   return (
@@ -14,6 +15,11 @@ export default function About() {
                             The best part is I can build something and I can see the resuts immediately.I have sample
                             projects displayed in the work section.Click on each image for detailed view.
       </p>
+        
+      <div className="lotties">
+          <UncontrolledLottie />
+         
+        </div>
     </div>
   );
 }

@@ -25,7 +25,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Project
         </a>
       </li>
       <li className="nav-item">
@@ -47,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          Resume
         </a>
       </li>
     </ul>
