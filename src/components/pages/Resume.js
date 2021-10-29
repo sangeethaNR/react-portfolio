@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import MyResume from '../../assets/resume/SangeethaResume.pdf'
+// import MyResume from '../../assets/resume/SangeethaResume.pdf'
 import { Link } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ return(
     <div>
        
        
-        Please click  to download my Resume
+        Please click  to download my 
         <BrowserRouter>
         <Link to="../../assets/resume/SangeethaResume.pdf" target="_blank" download>Resume</Link>
         </BrowserRouter>
