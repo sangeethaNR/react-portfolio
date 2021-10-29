@@ -6,6 +6,7 @@ import local4u2u_img from "../../assets/images/local4u2u.png"
 import quiz_img from "../../assets/images/Screenshot.png"
 import { Button } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
+import { Container,Row,Col } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -25,8 +26,9 @@ export default function Project() {
     const handleClose_PetFinder = () => setShowPetFinder(false);
     const handleShow_PetFinder = () => setShowPetFinder(true);
     const petFinderStyle ={
+
         cursor: 'pointer',
-        width: '40%',
+        width: '50%',
         height: '280px',
     };
 
@@ -46,18 +48,16 @@ export default function Project() {
 
     const handleClose_Local = () => setShowLocal(false);
     const handleShow_Local= () => setShowLocal(true);
+    
   return (
      
-  <section id="work" class="row">
-<div class="card_column">
-    <figure class="code_card">
-        <h2 class="card_header"> Work </h2>
-        <div class="vertical_line2"></div>
-        <div class="card_body row_div">
-            <div class="column_class">
+<Container>
 
-              <Button variant="primary"  id="petfinder_id" onClick={handleShow_PetFinder}><img style ={petFinderStyle} class="project_img" src={petfinder_img}
-                        alt="petfinder_landingPage" />   </Button>
+        <h2 class="card_header"> Work </h2>
+  
+<Row>
+        <Col>      <Button variant ='light' id="petfinder_id" class="rounded" onClick={handleShow_PetFinder}><img style ={petFinderStyle} class="project_img" src={petfinder_img}
+                        alt="petfinder_landingPage" />   </Button> </Col>
 
 <Modal show={showPetFinder} onHide={handleClose_PetFinder}>
         <Modal.Header closeButton>
@@ -75,11 +75,10 @@ export default function Project() {
       
        
       </Modal>
-            </div>
-            <div class="column_class">
-         <Button variant="primary"  id="weatherDashboard_id" onClick={handleShow_WeatherDashboard}>
+           
+        <Col> <Button variant="light"  id="weatherDashboard_id" onClick={handleShow_WeatherDashboard}>
                     <img style ={petFinderStyle} class="project_img" src={weatherDashboard_img}
-                        alt="weatherDashboard_landingPage" /> </Button>
+                        alt="weatherDashboard_landingPage" /> </Button> </Col>
                         <Modal show={showWeatherDashboard} onHide={handleClose_WeatherDashboard}>
         <Modal.Header closeButton>
           <Modal.Title>Weather Dashboard</Modal.Title>
@@ -96,18 +95,19 @@ export default function Project() {
       
        
       </Modal>
-            </div>
-            <div class="column_class">
-             <Button variant="primary" id="quiz_id" onClick={handleShow_Quiz}>
+      </Row>
+          <Row>
+            <Col>
+             <Button variant="light" id="quiz_id" onClick={handleShow_Quiz}>
                     <img class="project_img" style ={petFinderStyle} src={quiz_img} alt="quiz_landingPage"
-                       /></Button>
+                       /></Button> </Col>
                             <Modal show={showQuiz} onHide={handleClose_Quiz}>
         <Modal.Header closeButton>
           <Modal.Title>Quiz</Modal.Title>
         </Modal.Header>
         <Modal.Body>  
       
-          <Button variant="secondary" onClick={event =>  window.location.href='https://github.com/sangeethaNR/quiz'} >
+      <Button variant="secondary" onClick={event =>  window.location.href='https://github.com/sangeethaNR/quiz'} >
             Github
           </Button>
           <Button variant="secondary"  onClick={event =>  window.location.href='https://sangeethanr.github.io/Quiz/'}>
@@ -117,11 +117,10 @@ export default function Project() {
       
        
       </Modal>
-            </div>
-            <div class="column_class">
-               <Button variant="primary" id="local4u2u_id" onClick={handleShow_Local}>
+          
+      <Col>   <Button variant="light" id="local4u2u_id" onClick={handleShow_Local}>
                     <img class="project_img"style ={petFinderStyle} src={local4u2u_img} alt="local4u2u_landingPage"
-                       /></Button>
+                       /></Button> </Col>
                        <Modal show={showLocal} onHide={handleClose_Local}>
    <Modal.Header closeButton>
      <Modal.Title>Quiz</Modal.Title>
@@ -135,15 +134,11 @@ export default function Project() {
        Project
      </Button>
    </Modal.Body>
- 
+  
   
  </Modal>
-            </div>
-
-        </div>
-    </figure>
-    </div>
-    </section>
+ </Row>          
+ </Container>
 
 );
 }
