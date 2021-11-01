@@ -50,3 +50,6 @@ Open http://localhost:3000 to view it in the browser. The page will reload if yo
 ## Usage Instructions
 Open the project folder and Navigate to /src/components/.
 You will find all the components used and you can edit your information accordingly.
+
+## Live
+  To see the page in action please click on this link Landing Page https://my-portfolio-react-123.herokuapp.com/
