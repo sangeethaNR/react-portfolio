@@ -10,12 +10,11 @@ export default function About() {
           <Col>  <p>
       I'm an ex-software developer trying to start back my career.I have past experience working as
                             a developer.
-                            I love being a web developer beacuse I like development.I like to work with HTML/CSS.I like
-                            the flexibility to use addons and pluging to make
-                            look websites good.It is always a fun to create a interactive web page. we can extend our
-                            ideas and creativity as a web developer.
-                            The best part is I can build something and I can see the resuts immediately.I have sample
-                            projects displayed in the 'Project' section.Click on each image for detailed view.
+            3 years  of experience  as a Full stack developer in analysis, design and development of client/server, web based .NET application in Visual Studio .Net IDE. I am currently learning Full Stack Web Development at UCSD in an effort to get my career back on track after a break  . 
+            <br/> I have previously designed and developed client/server, web based .NET applications. 
+             I have extensive knowledge on technologies like MySQL, C#, ADO.NET, ASP.NET, HTML, CSS,JavaScript,React,Node.js,Express.
+             Passionate about creating software with new dimensions and futuristic features to make a positive contribution to the growth of the company.
+              Eager to learn new products and stay updated with current trends.
       </p>
       </Col>
       <Col>
