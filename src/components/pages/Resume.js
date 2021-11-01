@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 export default function Resume() {
 return(
     <div   style={{
-        margin :'59px'}}>
+        margin :'59px',color :'aliceblue'}}>
        
        
         Please click  to download my 
