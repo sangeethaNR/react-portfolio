@@ -7,12 +7,13 @@ import { BrowserRouter } from 'react-router-dom';
                                             
 export default function Resume() {
 return(
-    <div>
+    <div   style={{
+        margin :'59px'}}>
        
        
         Please click  to download my 
         <BrowserRouter>
-        <Link to="../../assets/resume/SangeethaResume.pdf" target="_blank" download>Resume</Link>
+        <Link to="../../assets/resume/SangeethaResume.pdf" target="_blank" download>  Resume</Link>
         </BrowserRouter>
         <ul>
             Front-end proficiencies
