@@ -80,13 +80,21 @@ const projectBtn ={
               <Modal.Title>Pet Finder</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-
+<div>
+  <div>
+  Developed this app to make pet finding simple and easy.
+  </div>
+ <b> Technology Stack </b>: HTML,CSS,JQuery
+</div>
+<br/>
+<center>
               <Button variant="secondary" onClick={event => window.location.href = 'https://github.com/sangeethaNR/petfinder'} >
                 Github
               </Button>
               <Button variant="secondary" onClick={event => window.location.href = 'https://sangeethanr.github.io/petfinder/'} style={projectBtn}>
                 Project
               </Button>
+              </center>
             </Modal.Body>
 
 
@@ -100,13 +108,21 @@ const projectBtn ={
               <Modal.Title>Weather Dashboard</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-
+<div>
+  <div>
+Developed a weather dashboard app to retrieve weather data for cities.
+</div>
+<b>Technology Stack :</b> HTML,CSS,Javascript,JQuery,Bootstrap
+</div>
+<br/>
+<center>
               <Button variant="secondary" onClick={event => window.location.href = 'https://github.com/sangeethaNR/weatherDashboard'} >
                 Github
               </Button>
               <Button variant="secondary" onClick={event => window.location.href = 'https://sangeethanr.github.io/weatherDashboard/'} style={projectBtn}>
                 Project
               </Button>
+              </center>
             </Modal.Body>
 
 
@@ -123,13 +139,17 @@ const projectBtn ={
               <Modal.Title>Quiz</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-
-              <Button variant="secondary" onClick={event => window.location.href = 'https://github.com/sangeethaNR/quiz'} >
+          <div> <div> Developed a timed coding quiz with multiple-choice questions. </div>
+<b>Technology Stack : </b>HTML,JavaScript,CSS
+</div>
+<br/>
+          <center>    <Button variant="secondary" onClick={event => window.location.href = 'https://github.com/sangeethaNR/quiz'} >
                 Github
               </Button>
               <Button variant="secondary" onClick={event => window.location.href = 'https://sangeethanr.github.io/Quiz/'} style={projectBtn}>
                 Project
               </Button>
+              </center>
             </Modal.Body>
 
 
@@ -143,14 +163,22 @@ const projectBtn ={
               <Modal.Title>Local4U2U</Modal.Title>
             </Modal.Header>
             <Modal.Body>
+<div>
+  <div>
+  Developed an app which lets local farmers sell their goods online thereby expanding their customer base.
 
-              <Button variant="secondary" onClick={event => window.location.href = 'https://github.com/sangeethaNR/Local4U2U'} >
+  </div>
+  <b>Technology Stack : </b>HTML,JavaScript,CSS,Node.js,Express.js,JQuery,Sequelize,
+  SweetAlert,Bcrypt,MYSQL2
+</div>
+           <center>   <Button variant="secondary" onClick={event => window.location.href = 'https://github.com/sangeethaNR/Local4U2U'} >
                 Github
               </Button>
                
               <Button variant="secondary" onClick={event => window.location.href = 'https://obscure-reef-30952.herokuapp.com/'} style={projectBtn}>
                 Project
               </Button>
+              </center>
             </Modal.Body>
 
 
@@ -171,13 +199,21 @@ const projectBtn ={
               <Modal.Title>Tech Blog</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-
+<div>
+  <div>
+  This is a blogging site where developers publish blog ,comment on other bloggers
+  </div>
+  <b>Technology Stack :</b>JavaScript,Node.js,Express.js,Sequelize,MYSQL
+      JAWSDB,Heroku
+</div>
+<center>
               <Button variant="secondary" onClick={event => window.location.href = 'https://github.com/sangeethaNR/Tech-Blog'} >
                 Github
               </Button>
               <Button variant="secondary" onClick={event => window.location.href = 'https://secure-scrubland-44183.herokuapp.com/'} style={projectBtn}>
                 Project
               </Button>
+              </center>
             </Modal.Body>
 
 
