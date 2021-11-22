@@ -13,7 +13,7 @@ return(
        
         Please click  to download my 
         <BrowserRouter>
-        <Link to="../../assets/resume/SangeethaResume.pdf" target="_blank" download>  Resume</Link>
+        <Link to="/resume/SangeethaResume.pdf" target="_blank" download>  Resume</Link>
         </BrowserRouter>
         <ul>
             Front-end proficiencies
@@ -22,12 +22,13 @@ return(
             <li>JavaScript</li>
             <li>JQuery</li>
             <li>React</li>
+            <li>Material UI</li>
             <li>Bootstrap</li>
         </ul>
 
         <ul>
             Back-end proficiencies
-            <li>APIs</li>
+           
             <li>MySQL,Sequelize</li>
             <li>Node</li>
             <li>Express</li>

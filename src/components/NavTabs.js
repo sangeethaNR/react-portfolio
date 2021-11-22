@@ -28,7 +28,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Project
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#contact"
           //  TODO: Add a comment explaining what this logic is doing
@@ -38,7 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a
           href="#resume"

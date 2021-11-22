@@ -3,7 +3,7 @@ import NavTabs from './NavTabs';
 import Project from './pages/Project';
 import About from './pages/About';
 import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+//import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -19,7 +19,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    return <Contact />;
+  
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
