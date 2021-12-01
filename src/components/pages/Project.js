@@ -81,7 +81,15 @@ const handleShow_DayCare= () => setshowDayCare(true);
 <div>
   <div>
   Developed single-page application to maintain information and logs about students using React.  </div>
- <b> Technology Stack </b>: React,Node.js,Express.js,Mongoose ODM,GraphQL,Heroku.
+ <b> Technology Stack </b>: React,Node.js,Express.js,Mongoose ODM,GraphQL,Heroku.<br/>
+ For Demo,<br/>
+  Use <br/>
+ <b> Admin Portal (credentials) </b><br/>
+Email :    admin@dev.com <br/>
+Password: password01 <br/>
+<b>Teacher Portal (credentials) </b><br/>
+Email: gio@email.com <br/>
+Password : password123
 </div>
 <br/>
 <center>
