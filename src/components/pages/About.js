@@ -25,13 +25,16 @@ export default function About() {
           </Row>
         <Row>
           <Col>  <p style={{color:'aliceblue'}}>
-      I'm an ex-software developer trying to start back my career.I have past experience working as
-                            a developer.
-            3 years  of experience  as a Full stack developer in analysis, design and development of client/server, web based .NET application in Visual Studio .Net IDE. I am currently learning Full Stack Web Development at UCSD in an effort to get my career back on track after a break  . 
-            <br/> I have previously designed and developed client/server, web based .NET applications. 
-             I have extensive knowledge on technologies like MySQL, C#, ADO.NET, ASP.NET, HTML, CSS,JavaScript,React,Node.js,Express.
-             Passionate about creating software with new dimensions and futuristic features to make a positive contribution to the growth of the company.
-              Eager to learn new products and stay updated with current trends.
+          3 years  of experience  as Full stack developer in analysis, design and development of client/server, web based .NET application in Visual Studio .Net IDE.
+          <br/> 
+          Recently, earned a certificate in full stack development from the University of California,San Diego(UCSD), with newly developed skills in JavaScript, CSS, React.js,MondoDB,Node.js,Express.js. and 
+          responsive web design in an effort to get my career back on track after a break.  
+          <br/>Previously designed and developed client/server, web based .NET applications. 
+          Extensive knowledge on technologies like MySQL, C#, ADO.NET, ASP.NET, HTML, CSS,JavaScript.
+         Passionate about creating software with new dimensions and 
+          futuristic features to make a positive contribution to the growth of the company. Eager to learn new products and stay updated with current trends.
+       
+          
       </p>
       </Col>
       <Col>
