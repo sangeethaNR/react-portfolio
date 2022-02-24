@@ -15,7 +15,7 @@ export default function About() {
             </h1> */}
 
               <h1 className="heading-name">
-              Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>  I'M  </h1>
+              Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>  I'm  </h1>
               <Layout />
              
 
@@ -24,7 +24,7 @@ export default function About() {
 
           </Row>
         <Row>
-          <Col>  <p style={{color:'aliceblue'}}>
+          <Col>  <p id="summaryP" className="summary-dark">
           3 years  of experience  as Full stack developer in analysis, design and development of client/server, web based .NET application in Visual Studio .Net IDE.
           <br/> 
           Recently, earned a certificate in full stack development from the University of California,San Diego(UCSD), with newly developed skills in JavaScript, CSS, React.js,MondoDB,Node.js,Express.js. and 

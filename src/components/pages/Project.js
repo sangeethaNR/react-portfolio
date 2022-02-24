@@ -20,6 +20,7 @@ export default function Project() {
 
   const handleClose_PetFinder = () => setShowPetFinder(false);
   const handleShow_PetFinder = () => setShowPetFinder(true);
+ 
   const imageStyle = {
 
     cursor: 'pointer',
